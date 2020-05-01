@@ -25,12 +25,6 @@
             rounded
             placeholder="Diameter [cm]"
           ></number-input>
-          <b-popover
-            :target="'firstPizzaDiameter'"
-            :placement="'left'"
-            triggers="focus"
-            :content="'Diameter [cm]'"
-          ></b-popover>
           <number-input
             id="firstPizzaQuantity"
             class="mb-2"
@@ -41,12 +35,6 @@
             rounded
             placeholder="Quantity"
           ></number-input>
-          <b-popover
-            :target="'firstPizzaQuantity'"
-            :placement="'left'"
-            triggers="focus"
-            :content="'Quantity'"
-          ></b-popover>
           <number-input
             id="firstPizzaPrice"
             class="mb-2"
@@ -56,12 +44,6 @@
             controls
             placeholder="Price per pizza [zl]"
           ></number-input>
-          <b-popover
-            :target="'firstPizzaPrice'"
-            :placement="'left'"
-            triggers="focus"
-            :content="'Price per pizza [zl]'"
-          ></b-popover>
           <div v-if="showResult">
             <p>
               Total area: {{firstPizza.area}} cm
@@ -95,12 +77,6 @@
             rounded
             placeholder="Diameter [cm]"
           ></number-input>
-          <b-popover
-            :target="'secondPizzaDiameter'"
-            :placement="'right'"
-            triggers="focus"
-            :content="`Diameter [cm]`"
-          ></b-popover>
           <number-input
             id="secondPizzaQuantity"
             class="mb-2"
@@ -111,12 +87,6 @@
             rounded
             placeholder="Quantity"
           ></number-input>
-          <b-popover
-            :target="'secondPizzaQuantity'"
-            :placement="'right'"
-            triggers="focus"
-            :content="'Quantity'"
-          ></b-popover>
           <number-input
             id="secondPizzaDiameter"
             ref="secondPizzaDiameter"
@@ -128,12 +98,6 @@
             controls
             placeholder="Price per pizza [zl]"
           ></number-input>
-          <b-popover
-            :target="'secondPizzaPrice'"
-            :placement="'right'"
-            triggers="focus"
-            :content="'Price per pizza [zl]'"
-          ></b-popover>
           <div v-if="showResult">
             <p>
               Total area: {{secondPizza.area}} cm

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <b-container>
-      <b-row class="justify-content-center">
+      <b-row class="d-flex justify-content-center">
         <PizzaBox />
       </b-row>
     </b-container>
@@ -37,10 +37,9 @@ input {
 html,
 body,
 #app {
-  height: 100%;
-  width: 100%;
-  margin: 0px;
-  padding: 0 !important;
   background-color: #4b357c;
+  overflow-x: hidden;
+  position: relative;
 }
+
 </style>

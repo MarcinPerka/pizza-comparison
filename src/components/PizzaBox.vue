@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="p-3">
     <h2 class="title">
       You don't know which pizza to choose?
       <br />Check it by completing the data in the calculator below!
